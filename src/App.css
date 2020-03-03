@@ -1,3 +1,10 @@
+.navbar {
+  font-family: roboto;
+  background-color: #005b8f;
+  height: 50px;
+  color: white;
+}
+
 .App {
   text-align: center;
 }
