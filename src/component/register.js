@@ -62,6 +62,7 @@ const Register = props => {
           <div class="form-group">
             <input
               type="text"
+              placeholder="Enter name"
               className="form-control"
               name="name"
               ref={register({ required: "name required" })}
@@ -73,6 +74,7 @@ const Register = props => {
           <div class="form-group">
             <input
               name="username"
+              placeholder="Enter username"
               type="text"
               class="form-control"
               value={form.username}
@@ -84,6 +86,7 @@ const Register = props => {
             <input
               type="Email"
               className="form-control"
+              placeholder="Enter email"
               name="email"
               ref={register({
                 required: "email required",
@@ -102,6 +105,7 @@ const Register = props => {
               type="password"
               className="form-control"
               name="password"
+              placeholder="Enter password"
               ref={register({
                 required: "password required",
                 minLength: { value: 4, message: "password atleast 4 character" }
@@ -116,6 +120,7 @@ const Register = props => {
               type="password"
               className="form-control"
               name="passwordConfirm"
+              placeholder="Password confirmasi"
               ref={register({
                 required: "passwordConfirm required",
                 validate: value =>

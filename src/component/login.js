@@ -9,7 +9,7 @@ export default function Login() {
     username: "",
     password: ""
   });
-  const [getToken] = use("token", "");
+  const [token, getToken] = use("token", "");
 
   const [admin, setAdmin] = useState({
     redirect: true

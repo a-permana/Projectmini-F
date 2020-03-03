@@ -51,7 +51,7 @@ function Navigation() {
   } else if (token.token.admin === true) {
     return (
       <Navbar color="teal" light expand="md">
-        <NavbarBrand>Code</NavbarBrand>
+        <NavbarBrand>Code1234</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
